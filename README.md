@@ -2,6 +2,6 @@
 
 To-do List:
 
-[ ] Header/Footer
-[ ] Homepage
-[ ] Logo
+- [ ] Header/Footer
+- [ ] Homepage
+- [ ] Logo
