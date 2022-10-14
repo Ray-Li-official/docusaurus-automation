@@ -22,3 +22,55 @@ module.exports = {
   },
 };
 ```
+- navbar
+  - title
+  - logo
+  - items
+- footer
+```js
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Tutorial',
+                to: '/docs/intro',
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Contribution',
+                href: '#',
+              },
+              {
+                label: 'Discord',
+                href: '#',
+              },
+              {
+                label: 'The Bored Company',
+                href: '#',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'About the author',
+                to: '#',
+              },
+              {
+                label: 'GitHub',
+                href: '#',
+              },
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} The Bored Company, Built with Docusaurus.`,
+      },
+```
