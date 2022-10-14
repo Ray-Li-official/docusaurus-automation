@@ -74,3 +74,12 @@ module.exports = {
         copyright: `Copyright © ${new Date().getFullYear()} The Bored Company, Built with Docusaurus.`,
       },
 ```
+- changing docs links
+  - one 'intro.md' in navbar section
+  - another one in footer
+
+## STEP2: Edit home page
+- in `src/pages/index.js`
+- in `src/components/Homepagefeatures/index.js`
+## STEP3: Delete directories in docs
+There might be compiling error after deleting the directories. Problem should be fixed after restarting the server.
