@@ -83,3 +83,9 @@ module.exports = {
 - in `src/components/Homepagefeatures/index.js`
 ## STEP3: Delete directories in docs
 There might be compiling error after deleting the directories. Problem should be fixed after restarting the server.
+
+## ADD-Ons
+### Latex
+```bash
+npm install --save remark-math@3 rehype-katex@5 hast-util-is-element@1.1.0
+```
